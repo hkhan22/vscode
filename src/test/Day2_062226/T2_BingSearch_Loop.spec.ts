@@ -30,4 +30,6 @@ test('Bing Search with multiple keywords', async ({ page }) => {
         let arrayResults = results?.split(' ');
         console.log("search results count: " + arrayResults?.[1]);
     }
+
+    //for testing
 });
