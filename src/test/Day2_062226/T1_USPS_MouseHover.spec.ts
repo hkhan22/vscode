@@ -1,5 +1,6 @@
-import test from '@playwright/test';
+import { test } from '@playwright/test';
 
+test.use({ headless: true });
 
 test('USPS Mouse Hover Test', async ({ page }) => {
 

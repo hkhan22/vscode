@@ -6,9 +6,9 @@
   "scripts": {
 
     "bingTest": "npx playwright test src/test/Day1_061626/T1_BingSearxh.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-    "uspsMouseHoverTest": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --headless --workers=1 --project=chrome --reporter=html",
+    "uspsMouseHoverTest": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --workers=1 --project=chrome --reporter=html",
     "bingLoopTest": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-    "parallelTest": "npx playwright test src/test/Day2_062226/.* --headed --workers=2 --project=chrome --reporter=html"
+    "parallelTest": "npx playwright test src/test/Day2_062226/.* --workers=2 --project=chrome --reporter=html"
 
   },
   "keywords": [],
